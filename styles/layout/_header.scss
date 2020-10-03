@@ -1,0 +1,12 @@
+header {
+    background-color: $lightred;
+    min-height: 25rem;
+    height: 35%;
+    display: flex;
+    .logo-text {
+        margin: auto;
+        margin-top: 4rem;
+        font-size: 6rem;
+        color: $verylightpink;
+    }
+}

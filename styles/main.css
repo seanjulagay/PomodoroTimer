@@ -1,1 +1,80 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: 0.1px dotted gray;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+.logo-text {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+}
+
+.font-fam-2 {
+  font-family: "Baloo 2", sans-serif;
+}
+
+.timer-container {
+  background-color: #EAEAEAFF;
+  width: 31rem;
+  height: 23rem;
+  position: relative;
+  bottom: 8rem;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0 0.3rem 0.7rem  gray;
+          box-shadow: 0 0.3rem 0.7rem  gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header {
+  background-color: #FA5252FF;
+  min-height: 25rem;
+  height: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .logo-text {
+  margin: auto;
+  margin-top: 4rem;
+  font-size: 6rem;
+  color: #FFE0E0FF;
+}
+
+main {
+  background-color: #DEDEDEFF;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=main.css.map */

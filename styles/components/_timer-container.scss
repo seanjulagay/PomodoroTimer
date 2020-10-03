@@ -1,0 +1,12 @@
+.timer-container {
+    background-color: $verylightergray;
+    width: 31rem;
+    height: 23rem;
+    position: relative;
+    bottom: 8rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 0.3rem 0.7rem  gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
