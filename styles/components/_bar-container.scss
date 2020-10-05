@@ -24,6 +24,9 @@
             height: 3.5rem;
             width: 3.5rem;
             margin-bottom: 0.5rem;
+            &:hover { // EDIT SO THAT ARROW CHANGES COLOR ON HOVER
+                cursor: pointer;
+            }
             &:active {
                 .fas {
                     color: darkred;
@@ -45,6 +48,6 @@
     .fas {
         color: $lightreddark;
         font-size: 3.5rem;
-        transition: color 0.3s; // event located at button class
+        transition: color 0.2s; // event located at button class
     }
 }
