@@ -7,6 +7,9 @@
     <title>Document</title>
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap" rel="stylesheet">
+    <!-- FONTAWESOME CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -19,22 +22,33 @@
                     25:00
                 </span>
             </div>
-            <div class="timer-container-buttons">
+            <div class="timer-buttons-container">
                 <div class="options-button-container">
-                    <span class="timer-container-buttons-text font-fam-2">Options</span>
+                    <span class="timer-buttons-container-text font-fam-2">Options</span>
                 </div>
+                <div class="timer-buttons-divider">|</div>
                 <div class="start-button-container">
-                    <span class="timer-container-buttons-text font-fam-2">Start</span>
+                    <span class="timer-buttons-container-text font-fam-2">Start</span>
                 </div>
             </div>
         </div>
-        <div class="time-toggle-bar-container bar-container">
-            <div class="time-toggle-bar-left-button-container">{</div>
-            <span class="time-toggle-text font-fam-2">Work Time!</span>
-            <div class="time-toggle-bar-right-button-container">}</div>
-        </div>
-        <div class="todo-bar-container bar-container">
-            <span class="todo-bar-text font-fam-2">My To-do List</span>
+        <div class="bar-container">
+            <div class="time-toggle-bar-container bar">
+                <div class="time-toggle-bar-left-button-container">
+                    <button class="time-toggle-bar-left-button">
+                        <i class="fas fa-caret-left"></i>
+                    </button>
+                </div>
+                <span class="time-toggle-text font-fam-2">Work Time!</span>
+                <div class="time-toggle-bar-right-button-container">
+                    <button class="time-toggle-bar-right-button">
+                        <i class="fas fa-caret-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="todo-bar-container bar">
+                <span class="todo-bar-text font-fam-2">My To-do List</span>
+            </div>
         </div>
     </main>
 </body>

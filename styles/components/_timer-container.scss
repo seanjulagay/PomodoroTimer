@@ -1,6 +1,6 @@
 .timer-container {
     background-color: $verylightergray;
-    width: 31rem;
+    width: 32rem;
     height: 23rem;
     position: relative;
     bottom: 8rem;
@@ -9,4 +9,32 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    .timer-counter-container, .timer-buttons-container {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .timer-counter-container {
+        .timer-counter-text {
+            text-align: center;
+            display: block;
+            font-size: 10rem;
+            font-weight: 700;
+            text-shadow: 0 0.2rem 0.5rem gray;
+            color: $darkwarmgray;
+        }
+    }
+    .timer-buttons-container {
+        display: flex;
+        justify-content: center;
+        font-size: 3rem;
+        color: $darkwarmgray;
+        text-align: center;
+        text-shadow: 0 0.1rem 0.2rem gray;
+        .options-button-container, .start-button-container {
+            flex: 5;
+        }
+        .timer-buttons-divider {
+            flex: 1;
+        }
+    }
 }

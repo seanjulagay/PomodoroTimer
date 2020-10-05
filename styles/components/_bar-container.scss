@@ -1,0 +1,50 @@
+.bar-container {
+    .bar {
+        width: 32rem;
+        height: 7.5rem;
+        position: relative;
+        bottom: 8rem; // sticks it to timer card so adjustments are easier
+        margin-top: 4rem;
+        border-radius: 1.5rem;
+        box-shadow: 0 0.3rem 0.7rem gray;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 3.5rem;
+        font-weight: 700;
+        color: $verylightgray;
+    }
+    .time-toggle-bar-container {
+        background-color: $lightred;
+        button {
+            background: none;
+            border: none;
+            height: 3.5rem;
+            width: 3.5rem;
+            margin-bottom: 0.5rem;
+            &:active {
+                .fas {
+                    color: darkred;
+                }
+            }
+        }
+        .time-toggle-bar-left-button {
+            position: relative;
+            right: 2.5rem;
+        }
+        .time-toggle-bar-right-button {
+            position: relative;
+            left: 2.5rem;
+        }
+    }
+    .todo-bar-container {
+        background-color: $darkwarmgray;
+    }
+    .fas {
+        color: $lightreddark;
+        font-size: 3.5rem;
+        transition: color 0.3s; // event located at button class
+    }
+}

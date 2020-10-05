@@ -2,9 +2,12 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
   user-select: none;
-  border: 0.1px dotted gray;
+  &:focus {
+    outline: none;
+  }
 }
 
 body, html {
